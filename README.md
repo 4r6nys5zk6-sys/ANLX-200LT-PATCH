@@ -51,7 +51,7 @@ Enlaces: [firmware oficial GP-200LT V1.8.0](https://www.valeton.net/wpfd_file/gp
 3. Genera el ZIP de ANLX, extrae el BIN e instálalo desde el editor oficial como se explicó arriba.
 
 
-## 3. Problema conocido: congelamiento / bloque VOL
+## 3. Problema conocido: congelamiento
 
 **Síntoma reportado:** en las pruebas de integración NAM + Universal Blocks de la rama Developer, NAM aún no está convertido correctamente en bloque independiente y se ha observado congelamiento.
 
