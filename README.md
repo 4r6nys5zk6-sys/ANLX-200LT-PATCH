@@ -17,7 +17,7 @@ Se instalan automáticamente, sin casillas:
 | **Cry Baby GCB95 (C-Wah)** | Incluido | Recreación digital sin medición de una unidad física de referencia. |
 | **Arranque ANLX V0.4.4** | Incluido | Imagen retro a resolución 480 × 272, preparada como GIF estático. Se puede sustituir en la interfaz. |
 
-**No se instalan en Community:** NAM A2 Lite, NAM Antipop, VOX V846 / R-Wah y NV Reset (Factory-reset cleanup) como parche nuevo. El bloque NAM independiente y su enlace con Universal Blocks siguen **pendientes de implementación y validación**. El motor NAM experimental de la Developer no debe confundirse con una función lista para usuarios finales.
+** El bloque NAM independiente y su enlace con Universal Blocks siguen **pendientes de implementación y validación**.
 
 Los mods de TNT **Strobe tuner and footswitch LED indicators, Carry-over tap tempo, Global output balance, Footswitch labels, Unlock all display languages y Portuguese (Brazil) display language** no se ofrecen como nuevas instalaciones desde ANLX. Deben seleccionarse en el proyecto original de TNT. Los ya presentes se conservan únicamente cuando su combinación es reconocida y compatible.
 
