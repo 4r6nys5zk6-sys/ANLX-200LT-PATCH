@@ -3,7 +3,7 @@
 Parcheador **no oficial** para **Valeton GP-200LT con firmware V1.8.0**. Es un único archivo HTML que se abre localmente en el navegador. El HTML **no contiene el firmware oficial** y **no se conecta a la pedalera**: recibe un BIN que tú seleccionas y genera un ZIP con un nuevo BIN y `manifest.json`.
 
 > [!WARNING]
-> **VERSIÓN EXPERIMENTAL, NO VALIDADA EN UNA GP-200LT FÍSICA PARA ESTA COMPILACIÓN.** Hay un reporte de congelamiento de la pedalera y desaparición del bloque VOL relacionado con el trabajo pendiente para separar NAM e integrarlo con Universal Blocks. **No se ha demostrado ni solucionado la causa raíz**. NAM está **desactivado** en la edición pública. Antes de instalar, respalda presets y conserva el firmware oficial para restauración. Reiniciar puede recuperar una unidad congelada, pero **no corrige el bug**.
+> Hay un reporte de congelamiento de la pedalera y desaparición del bloque VOL relacionado con el trabajo pendiente para separar NAM e integrarlo con Universal Blocks. Antes de instalar, respalda presets y conserva el firmware oficial para restauración. Reiniciar puede recuperar una unidad congelada, pero **no corrige el bug**.
 
 ## 1. Mods incluidos
 
