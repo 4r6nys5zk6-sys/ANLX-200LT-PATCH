@@ -28,7 +28,7 @@ Se instalan automáticamente, sin casillas:
 | **Fast patch change** | Incluido | Reduce la transición al cambiar presets, adaptado a partir del mod de TNT. |
 | **DSP Usage Meter** | Incluido | Indicador de carga de procesamiento DSP. |
 | **Cry Baby GCB95 (C-Wah)** | Incluido | Recreación digital sin medición de una unidad física de referencia. |
-| **Arranque ANLX V0.4.4** | Incluido | Imagen retro a resolución 480 × 272, preparada como GIF estático. Se puede sustituir en la interfaz. |
+| **Arranque ANLX V0.4.4** | Incluido | Imagen a resolución 480 × 272, preparada como GIF estático. Se puede sustituir en la interfaz. |
 
 ** El bloque NAM independiente y su enlace con Universal Blocks siguen **pendientes de implementación y validación**.
 
