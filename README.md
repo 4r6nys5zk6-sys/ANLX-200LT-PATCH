@@ -24,7 +24,7 @@ Se instalan automáticamente, sin casillas:
 
 | Mod | Estado | Detalle |
 | --- | --- | --- |
-| **Universal Blocks** | Incluido, experimental | Selección de familias de efectos/NONE en los bloques. Conserva la corrección Delay/Slapback incorporada desde el checkpoint Developer. **NAM no se añade como familia activa.** |
+| **Universal Blocks** | Incluido, experimental | Selección de familias de efectos/NONE en los bloques. **NAM no se añade como familia activa.** |
 | **Fast patch change** | Incluido | Reduce la transición al cambiar presets, adaptado a partir del mod de TNT. |
 | **DSP Usage Meter** | Incluido | Indicador de carga de procesamiento DSP. |
 | **Cry Baby GCB95 (C-Wah)** | Incluido | Recreación digital sin medición de una unidad física de referencia. |
