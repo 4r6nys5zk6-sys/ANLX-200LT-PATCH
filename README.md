@@ -4,6 +4,19 @@ Parcheador **no oficial** para **Valeton GP-200LT con firmware V1.8.0**. Es un �
 
 > [!WARNING]
 > Hay un reporte de congelamiento de la pedalera relacionado con el trabajo pendiente para separar NAM e integrarlo con Universal Blocks. Antes de instalar, respalda presets y conserva el firmware oficial para restauración. Reiniciar puede recuperar una unidad congelada, pero **no corrige el bug**.
+>## ⚠️ Problemas Conocidos (Known Issues)
+
+Actualmente existe un fallo crítico que provoca el bloqueo total (*freeze*) del sistema operativo del pedal bajo las siguientes condiciones:
+
+1. **Límites en el selector de familias:** 
+   * No desplazarse por debajo de la primera familia (**PRE**).
+   * No superar la familia 11 (**VOL**). Seleccionar la familia 12 (**NAM**)(aun no existente) congelará la unidad, ya que su soporte aún no está implementado.
+2. **Selección de efectos:** 
+   * Evitar seleccionar cualquiera de las opciones etiquetadas como **NONE**, ya que provocan el bloqueo inmediato del equipo.
+
+### Reporte de Errores (Bug Reporting)
+Si detectas cualquier otro fallo o comportamiento inesperado, por favor repórtalo detallando los pasos exactos para reproducirlo. Esto permitirá aislar el problema e incluir su corrección en el próximo parche.
+
 
 ## 1. Mods incluidos
 
