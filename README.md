@@ -82,7 +82,7 @@ Para reportar: especifica modelo, versión de boot, versión de editor, BIN de e
 ## 5. Seguridad, créditos y licencias
 
 - **tntexplosivesltd (TNT):** parches originales y referencia de instalación. [Repositorio](https://github.com/tntexplosivesltd/gp200-patcher).
-- **Goaltoday:** trabajo original del motor NAM. Y parches originales de GP200  [Repositorio] 
+- **Goaltoday:** trabajo original del motor NAM. Y parches originales de GP200  [Repositorio] (https://github.com/Goaltoday/GP-200-FIRMWARE-MODS)
 - **Valeton:** fabricante y propietario del firmware oficial. Este repositorio **no distribuye** el firmware original.
 
 **Licencia:** las contribuciones originales de ANLX de las que tenemos derecho a disponer se publican bajo GPL-3.0; consulta `LICENSE`. Los componentes de terceros retienen sus respectivos derechos y licencias. La presencia de un componente en el HTML no significa que ANLX sea titular de su código. **Es necesario revisar las licencias y los permisos de redistribución de las partes de TNT y otros componentes antes de una publicación definitiva.** El parcheador es un experimento independiente, sin afiliación, garantía ni soporte oficial de Valeton.
