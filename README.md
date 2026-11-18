@@ -19,7 +19,7 @@ Se instalan automáticamente, excepto WAH es opcional :
 | Mod | Estado | Detalle |
 | --- | --- | --- |
 | **Universal Blocks** | Incluido, | Selección de familias de efectos/NONE en los bloques.**NONE BLOQUES LIBRES** |
-| **Fast patch change** | Incluido | Reduce la transición al cambiar presets, adaptado a partir del mod de TNT. |
+| **Fast patch change** | Incluido (**parche de tntexplosivesltd**) | Reduce la transición al cambiar presets, adaptado a partir del mod de TNT. |
 | **DSP Usage Meter** | Incluido | Indicador de carga de procesamiento DSP. |
 | **Cry Baby GCB95 (C-Wah)** | Incluido | Recreación digital sin medición de una unidad física de referencia. **SE SOBRESCRIBE EN EL SLOT C-WAH  |
 | **Imagen De Arranque Personalizado** | Incluido | Imagen a resolución 480 × 272, preparada como GIF estático. Se puede sustituir en la interfaz. |
