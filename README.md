@@ -35,7 +35,7 @@ Los mods de TNT **Strobe tuner and footswitch LED indicators, Carry-over tap tem
 - Firmware oficial **GP-200LT V1.8.0** correspondiente a tu pedalera.
 - Editor/software oficial Valeton compatible con V1.8.0, cable USB confiable y alimentación estable.
 - Copia de seguridad de presets y del firmware original.
-- Archivos: `GP-200-patcher.html` de TNT y `ANLX-CUSTOM-PATCH-LT-v0.4.4-COMMUNITY.html` de este repositorio.
+- Archivos: `GP-200-patcher.html` de TNT y `ANLX-CUSTOM-PATCH-LT-v0.4.X-COMMUNITY.html` de este repositorio.
 
 Enlaces: [firmware oficial GP-200LT V1.8.0](https://www.valeton.net/wpfd_file/gp-200lt-firmware-v1-8-0-zip%EF%BC%88compatible-software-v1-8-0%EF%BC%89/), [TNT GP-200 Patcher, releases](https://github.com/tntexplosivesltd/gp200-patcher/releases), [Valeton GP-200LT](https://www.valeton.net/product/gp-200lt/).
 
