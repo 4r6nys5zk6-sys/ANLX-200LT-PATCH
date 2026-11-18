@@ -44,7 +44,7 @@ Enlaces: [firmware oficial GP-200LT V1.8.0](https://www.valeton.net/wpfd_file/gp
 1. Descarga el **HTML de TNT v1.0** de su página de lanzamientos. Ábrelo en un navegador; funciona sin conexión.
 2. Carga en TNT el **BIN oficial GP-200LT V1.8.0**. Selecciona allí los mods TNT que desees. **No es obligatorio seleccionar ninguno** si prefieres usar directamente ANLX desde el firmware original.
 3. Genera la salida TNT. **Extrae el archivo `.bin` del ZIP** que produce TNT. Conserva el `manifest.json`, que documenta los cambios y sus huellas SHA-256.
-4. Abre el HTML de **ANLX Community V0.4.4**. Carga el **BIN producido por TNT**, no el ZIP. Si se reconoce la combinación, el parcheador mostrará los mods ya presentes y preparará la lista Community automáticamente.
+4. Abre el HTML de **ANLX Community V0.4.X**. Carga el **BIN producido por TNT**, no el ZIP. Si se reconoce la combinación, el parcheador mostrará los mods ya presentes y preparará la lista Community automáticamente.
 5. Si ANLX rechaza el BIN, **no cambies el nombre, la firma, los offsets ni el checksum para forzarlo**. Comienza desde el BIN oficial o reporta el SHA-256 y el manifiesto sin compartir datos privados.
 6. Pulsa **Generar y descargar ZIP**. Descomprímelo y conserva los archivos `.bin` y `manifest.json` que generó ANLX.
 7. Abre el **editor oficial de Valeton**, conecta la GP-200LT por USB y utiliza la opción de **actualización de firmware** del editor para cargar el `.bin` extraído. **No cargues el ZIP en el actualizador.** Sigue las indicaciones del editor hasta finalizar y no desconectes el cable ni la alimentación durante el proceso.
