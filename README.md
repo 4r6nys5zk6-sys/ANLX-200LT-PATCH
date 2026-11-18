@@ -1,18 +1,12 @@
-# ANLX Custom Patch LT V0.4.4 · Community
+# ANLX Custom Patch LT V0.4.6 · Community
+**obligatorio cargar un NAM para habilitar Exportar zip Custom Firmware, pronto sera opcional**
 
 Parcheador **no oficial** para **Valeton GP-200LT con firmware V1.8.0**. Es un único archivo HTML que se abre localmente en el navegador. El HTML **no contiene el firmware oficial** y **no se conecta a la pedalera**: recibe un BIN que tú seleccionas y genera un ZIP con un nuevo BIN y `manifest.json`.
 
 > [!WARNING]
-> Hay un reporte de congelamiento de la pedalera relacionado con el trabajo pendiente para separar NAM e integrarlo con Universal Blocks. Antes de instalar, respalda presets y conserva el firmware oficial para restauración. Reiniciar puede recuperar una unidad congelada, pero **no corrige el bug**.
->## ⚠️ Problemas Conocidos (Known Issues)
+>  Antes de instalar, respalda presets y conserva el firmware oficial para restauración.
+> Nam consume el %50 de CPU si el Medidor DSP marca el %50 o mas y cargas un Nam el pedal quedara congelado. No es un bug así que Evita sobrecargar el sistema.
 
-Actualmente existe un fallo crítico que provoca el bloqueo total (*freeze*) del sistema operativo del pedal bajo las siguientes condiciones:
-
-1. **Límites en el selector de familias:** 
-   * No desplazarse por debajo de la primera familia (**PRE**).
-   * No superar la familia 11 (**VOL**). Seleccionar la familia 12 (**NAM**)(aun no existente) congelará la unidad, ya que su soporte aún no está implementado.
-2. **Selección de efectos:** 
-   * Evitar seleccionar cualquiera de las opciones etiquetadas como **NONE**, ya que provocan el bloqueo inmediato del equipo.
 
 ### Reporte de Errores (Bug Reporting)
 Si detectas cualquier otro fallo o comportamiento inesperado, por favor repórtalo detallando los pasos exactos para reproducirlo. Esto permitirá aislar el problema e incluir su corrección en el próximo parche.
@@ -20,17 +14,16 @@ Si detectas cualquier otro fallo o comportamiento inesperado, por favor repórta
 
 ## 1. Mods incluidos
 
-Se instalan automáticamente, sin casillas:
+Se instalan automáticamente, excepto WAH es opcional :
 
 | Mod | Estado | Detalle |
 | --- | --- | --- |
-| **Universal Blocks** | Incluido, experimental | Selección de familias de efectos/NONE en los bloques. **NAM no se añade como familia activa.** |
+| **Universal Blocks** | Incluido, | Selección de familias de efectos/NONE en los bloques.**NONE BLOQUES LIBRES** |
 | **Fast patch change** | Incluido | Reduce la transición al cambiar presets, adaptado a partir del mod de TNT. |
 | **DSP Usage Meter** | Incluido | Indicador de carga de procesamiento DSP. |
-| **Cry Baby GCB95 (C-Wah)** | Incluido | Recreación digital sin medición de una unidad física de referencia. |
-| **Arranque ANLX V0.4.4** | Incluido | Imagen a resolución 480 × 272, preparada como GIF estático. Se puede sustituir en la interfaz. |
+| **Cry Baby GCB95 (C-Wah)** | Incluido | Recreación digital sin medición de una unidad física de referencia. **SE SOBRESCRIBE EN EL SLOT C-WAH  |
+| **Imagen De Arranque Personalizado** | Incluido | Imagen a resolución 480 × 272, preparada como GIF estático. Se puede sustituir en la interfaz. |
 
-** El bloque NAM independiente y su enlace con Universal Blocks siguen **pendientes de implementación y validación**.
 
 Los mods de TNT **Strobe tuner and footswitch LED indicators, Carry-over tap tempo, Global output balance, Footswitch labels, Unlock all display languages y Portuguese (Brazil) display language** no se ofrecen como nuevas instalaciones desde ANLX. Deben seleccionarse en el proyecto original de TNT. Los ya presentes se conservan únicamente cuando su combinación es reconocida y compatible.
 
@@ -64,17 +57,19 @@ Enlaces: [firmware oficial GP-200LT V1.8.0](https://www.valeton.net/wpfd_file/gp
 3. Genera el ZIP de ANLX, extrae el BIN e instálalo desde el editor oficial como se explicó arriba.
 
 
-## 3. Problema conocido: congelamiento
+## 3. Problema conocido: Ninguno
 
-**Síntoma reportado:** en las pruebas de integración NAM + Universal Blocks de la rama Developer, NAM aún no está convertido correctamente en bloque independiente y se ha observado congelamiento.
-
-**Si el pedal se congela:** si es seguro hacerlo y no está actualizando firmware, apaga y vuelve a encender de forma normal. No repitas el preset o secuencia que causó el fallo. Si reaparece, restaura el firmware oficial siguiendo el procedimiento de Valeton. Si no arranca o queda en modo de actualización, utiliza el procedimiento de recuperación de firmware documentado por Valeton/TNT o solicita soporte. **No interrumpas la alimentación durante una actualización.**
+**Si el pedal se congela por sobrecarga de dsp:**  apaga y vuelve a encender de forma normal. No repitas el preset o secuencia que causó el fallo. Si no arranca o queda en modo de actualización, utiliza el procedimiento de recuperación de firmware documentado por Valeton/TNT o solicita soporte. **No interrumpas la alimentación durante una actualización.**
 
 Para reportar: especifica modelo, versión de boot, versión de editor, BIN de entrada, nombres de mods, pasos para reproducir. Adjunta `manifest.json` y el SHA-256 del BIN, no necesariamente el BIN completo.
 
 ## 4. Registro de cambios
 
-### V0.4.4 · Community, (15 de noviembre de 2026)
+### V0.4.6 (17 de noviembre de 2026)
+
+- **NAM A2 Lite*. Integracion completada (ya no hay congelamientos por falta del parche complementario) **obligatorio cargar un NAM para habilitar Exportar zip Custom Firmware, pronto sera opcional**
+
+### V0.4.4 (15 de noviembre de 2026)
 
 - **Universal Blocks standalone** activado automáticamente, sin registrar la familia NAM todavía.
 - **NAM A2 Lite**. Integración NAM + UB identificada como pendiente.
