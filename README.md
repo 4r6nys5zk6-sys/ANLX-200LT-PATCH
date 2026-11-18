@@ -48,7 +48,7 @@ Enlaces: [firmware oficial GP-200LT V1.8.0](https://www.valeton.net/wpfd_file/gp
 5. Si ANLX rechaza el BIN, **no cambies el nombre, la firma, los offsets ni el checksum para forzarlo**. Comienza desde el BIN oficial o reporta el SHA-256 y el manifiesto sin compartir datos privados.
 6. Pulsa **Generar y descargar ZIP**. Descomprímelo y conserva los archivos `.bin` y `manifest.json` que generó ANLX.
 7. Abre el **editor oficial de Valeton**, conecta la GP-200LT por USB y utiliza la opción de **actualización de firmware** del editor para cargar el `.bin` extraído. **No cargues el ZIP en el actualizador.** Sigue las indicaciones del editor hasta finalizar y no desconectes el cable ni la alimentación durante el proceso.
-8. Al volver a encender, comprueba el arranque, los bloques incluyendo VOL, tus presets y el comportamiento de cambios de preset y Delay/Slapback antes de utilizar el equipo en directo.
+8. Al volver a encender, comprueba el arranque, los bloques, tus presets y el comportamiento de cambios de preset antes de utilizar el equipo en directo.
 
 ### Ruta B: instalación sin mods TNT adicionales
 
@@ -67,14 +67,14 @@ Para reportar: especifica modelo, versión de boot, versión de editor, BIN de e
 
 ### V0.4.6 (17 de noviembre de 2026)
 
-- **NAM A2 Lite*. Integracion completada (ya no hay congelamientos por falta del parche complementario) **obligatorio cargar un NAM para habilitar Exportar zip Custom Firmware, pronto sera opcional**
+- **NAM A2 Lite**. Integracion completada (ya no hay congelamientos por falta del parche complementario) **obligatorio cargar un NAM para habilitar Exportar zip Custom Firmware, pronto sera opcional**
 
 ### V0.4.4 (15 de noviembre de 2026)
 
 - **Universal Blocks standalone** activado automáticamente, sin registrar la familia NAM todavía.
 - **NAM A2 Lite**. Integración NAM + UB identificada como pendiente.
 - implementación de Cry Baby GCB95 sobrescribe C-wah.
-- **Fast Patch Change**, medidor DSP y arranque ANLX incluidos automáticamente.
+- **Fast Patch Change** unico patch que se agrega de TNT, medidor DSP y arranque ANLX incluidos automáticamente.
 - Importación de BIN oficial V1.8.0, **TNT v1.0 reconocido** verificada. Las rutas no comprobadas se rechazan.
 - Nueva imagen de arranque 
 
@@ -82,7 +82,7 @@ Para reportar: especifica modelo, versión de boot, versión de editor, BIN de e
 ## 5. Seguridad, créditos y licencias
 
 - **tntexplosivesltd (TNT):** parches originales y referencia de instalación. [Repositorio](https://github.com/tntexplosivesltd/gp200-patcher).
-- **Goaltoday:** trabajo original del motor NAM. NAM no se habilita en la Community de esta versión.
+- **Goaltoday:** trabajo original del motor NAM. Y parches originales de GP200  [Repositorio] 
 - **Valeton:** fabricante y propietario del firmware oficial. Este repositorio **no distribuye** el firmware original.
 
 **Licencia:** las contribuciones originales de ANLX de las que tenemos derecho a disponer se publican bajo GPL-3.0; consulta `LICENSE`. Los componentes de terceros retienen sus respectivos derechos y licencias. La presencia de un componente en el HTML no significa que ANLX sea titular de su código. **Es necesario revisar las licencias y los permisos de redistribución de las partes de TNT y otros componentes antes de una publicación definitiva.** El parcheador es un experimento independiente, sin afiliación, garantía ni soporte oficial de Valeton.
